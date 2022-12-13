@@ -1,6 +1,6 @@
 # js-custom-events-todo
 
-I made this simple todo app to experiment with js custom events.
+![](https://github.com/juntch/js-custom-events-todo/blob/master/assets/img/app_preview.png)
 
 ## How to run the application
 
