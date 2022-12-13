@@ -1,0 +1,26 @@
+{
+  "name": "js-custom-events",
+  "version": "1.0.0",
+  "description": "Simple Todo App that uses JS custom events",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juntch/js-custom-events-todo.git"
+  },
+  "keywords": [
+    "js",
+    "custom",
+    "events",
+    "todo"
+  ],
+  "author": "J. Hoffmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juntch/js-custom-events-todo/issues"
+  },
+  "homepage": "https://github.com/juntch/js-custom-events-todo#readme"
+}

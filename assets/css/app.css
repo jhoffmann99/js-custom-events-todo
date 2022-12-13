@@ -1,0 +1,89 @@
+:root {
+    /* colors */
+    --main-bg-color: #02020a;
+    --main-color: #fff;
+    --accent-color: #d63230;
+    /* ---------- */
+
+    box-sizing: border-box;
+    font-family: Verdana;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+
+/* ---------- */
+
+.app-title {
+    color: var(--accent-color);
+}
+
+/* Define Layouts */
+
+.l-page {
+   max-width: 1024px;
+   margin: 25vh auto;
+}
+
+/* ---------- */
+
+/* Define Components */
+
+.c-todo__new-task {
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+@media screen and (max-width: 426px) {
+    .c-todo__new-task {
+        flex-direction: column;
+    }
+}
+
+.c-todo__new-task > input {
+    flex-grow: 1;
+    padding: .5rem;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.c-todo__new-task button {
+    width: 100px;
+    background: var(--accent-color);
+    border: 0;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 426px) {
+    .c-todo__new-task button {
+        height: 2rem;
+        width: 100%;
+    }
+}
+
+.c-todo__task--finished {
+    text-decoration: line-through;
+    cursor: no-drop;
+}
+
+.c-todo__task {
+    border-top: 1px dashed var(--accent-color);
+    padding: .5rem;
+}
+
+.c-todo__task:not(.c-todo__task--finished){
+    cursor: pointer;
+}
+
+.c-todo__task:last-of-type {
+    border-bottom: 1px dashed var(--accent-color);
+}
+
+/* ---------- */
+
+/* Define utilities */
+
+.u-text-center {
+  text-align: center;  
+}
